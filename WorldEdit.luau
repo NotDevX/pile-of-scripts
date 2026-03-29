@@ -1,6 +1,5 @@
 --[[
-	World Edit Thingamabob - Fused Script
-	Tool + GUI + Logic all in one
+	World Edit Thingamabob, more like a shitty btool
 ]]
 
 local Players = game:GetService("Players")
