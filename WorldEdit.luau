@@ -6,7 +6,7 @@
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
-local CoreGui = game:GetService("CoreGui")
+local CoreGui = game:GetService("CoreGui") or Players.LocalPlayer.PlayerGui
 
 local Player = Players.LocalPlayer
 local Mouse = Player:GetMouse()
